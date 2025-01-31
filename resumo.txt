@@ -1,0 +1,29 @@
+git init
+para que determinada pasta seja iniciada no git
+
+git remote add origin 'url do github'
+vinculando a pasta local ao repositório do GitHub
+
+git status
+verificar o que está pendente de commit
+
+git add 'nome do arquivo'
+para versionar o arquivo antes de dar commit
+
+git commit -m 'mensagem do commit'
+agrupa em um pacote todas as adições e modificações
+
+git push origin master
+comando para enviar as modificações para o GitHub
+
+git pull origin master
+pega as modificações de todos os desenvolvedores
+
+git diff
+mostra as diferenças o arquivo atual e a versão anterior
+
+git log
+log de commits (quem realizou, data e mensagem do commit)
+
+git show 'hash do commit'
+mostra o que foi feito no commit (para lembrar tudo o que eu ou alguém fez)
